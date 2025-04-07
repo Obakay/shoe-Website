@@ -5,11 +5,18 @@
     font-family: sans-serif;
 
 }
+<<<<<<< HEAD
  body{
     /* background-color: black; */
     width: 100%;
     height: 100vh;
      
+=======
+  body{
+/*     background-color: black; */
+    width: 100%;
+    height: 100vh;
+>>>>>>> ce6f322ef09da9a49c763f39ed0365f9c00c73f7
 }  
 html{
     scroll-behavior: smooth;
