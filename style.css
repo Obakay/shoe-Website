@@ -53,9 +53,9 @@ width: 970px;
 section{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(to right, white, rgb(161, 60, 77));
+    background:linear-gradient(to left, white, rgb(161, 60, 77));
     background-size: cover;
-    background-position: center;
+    background-position: right;
     
 }
 section nav{
@@ -118,18 +118,19 @@ section .main .main-content .main-text h1{
     font-size: 90px;
     line-height: 70px;
     font-family: pyxidium quick;
-    background: linear-gradient(to right, rgb(189, 46, 70), rgb(12, 1, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: (to right, rgb(189, 46, 70), rgb(12, 1, 1));
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     position: relative;
     top: 45px;
     left: 5%;
 }
 section .main .main-content .main-text h1 span{
     font-size: 70px;
-    background: linear-gradient(to right, rgb(189, 46, 70), rgb(12, 1, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(12, 1, 1)
+    /* background: linear-gradient(to right, rgb(189, 46, 70), rgb(12, 1, 1)); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 
 }
 
@@ -201,9 +202,10 @@ section .main .button:hover i{
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    background: linear-gradient(to right, rgb(189, 46, 70), rgb(12, 1, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: (to right, rgb(189, 46, 70), rgb(12, 1, 1)); 
+    background-color: (to right, rgb(189, 46, 70), rgb(12, 1, 1));
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 
 }
 .products .box{
@@ -303,21 +305,21 @@ section .main .button:hover i{
 
 .about h1{
     font-size: 60px;
-    margin-top: 40rem;
+    margin-top: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgb(46, 17, 209);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     text-transform: uppercase;
     
 }
 
 .about h1 span{
-    background-image: linear-gradient(to right, rgb(177, 63, 143), rgb(60, 16, 117));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: (to right, rgb(177, 63, 143), rgb(60, 16, 117));
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     margin-left: 15px;
 }
 
@@ -332,7 +334,7 @@ section .main .button:hover i{
 }
 .about .about-main .about-image{
     display: flex;
-    margin-top: 50px;
+    margin-top: 120px;
 
 }
 .about .about-main .about-image .about-small-image{
@@ -377,8 +379,8 @@ section .main .button:hover i{
 }
 .about .about-main .about-text p{
     background-image: linear-gradient(to right, rgb(177, 63, 143), rgb(60, 16, 117));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     line-height: 22px;
     width: 600px;
     text-align: justify;
@@ -399,12 +401,14 @@ section .main .button:hover i{
     border: 2px solid plum;
     text-decoration: none;
     box-shadow: 0 0 8px blueviolet;
+    margin-bottom: 120px;
 }
 
 .about .about-btn:hover{
     border: 2px solid transparent;
     background: rgb(95, 25, 74);
     color: white;
+    
 }
 
 
@@ -414,7 +418,7 @@ section .main .button:hover i{
     width: 100%;
     height: 100vh;
     padding-top: 80px;
-    margin-top: 45rem;
+    margin-top: 60rem;
 }
 
 .review h1{
@@ -427,8 +431,8 @@ section .main .button:hover i{
 
 .review h1 span{
      background-image: linear-gradient(to right, pink, rgb(87, 32, 87));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     margin-left: 15px;
 }
 
@@ -523,8 +527,8 @@ section .main .button:hover i{
 
 }.service h1 span{
     background-image: linear-gradient(to right, pink, rgb(87, 32, 87));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
     margin-left: 15px;
 }
 
