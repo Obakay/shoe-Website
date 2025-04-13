@@ -309,7 +309,7 @@ section .main .button:hover i{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(46, 17, 209);
+    /* background: rgb(46, 17, 209); */
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
     text-transform: uppercase;
@@ -317,7 +317,7 @@ section .main .button:hover i{
 }
 
 .about h1 span{
-    color: (to right, rgb(177, 63, 143), rgb(60, 16, 117));
+    background-image: linear-gradient (to right, rgb(177, 63, 143), rgb(60, 16, 117));
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
     margin-left: 15px;
@@ -378,6 +378,7 @@ section .main .button:hover i{
     margin-top: 45px;
 }
 .about .about-main .about-text p{
+    /* color: (to right, rgb(177, 63, 143), rgb(60, 16, 117)); */
     background-image: linear-gradient(to right, rgb(177, 63, 143), rgb(60, 16, 117));
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
@@ -543,7 +544,7 @@ section .main .button:hover i{
 }
 .service .service-card .service-box i{
     font-size: 60px;
-    color: orange;
+    color:orange;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -557,7 +558,7 @@ section .main .button:hover i{
 
 .service .service-card .service-box p{
    margin-bottom: 60px;
-    color: rgb(90, 102, 112);
+    color: rgb(112, 112, 90);
     text-align: center;
 }
 
